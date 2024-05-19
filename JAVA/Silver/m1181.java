@@ -14,6 +14,7 @@ public class m1181 {
         }
 
         Arrays.sort(arr, new Comparator<String>() {
+
             public int compare(String s1, String s2) {
                 if (s1.length() == s2.length()) {
                     return s1.compareTo(s2);
