@@ -9,7 +9,7 @@ public class m1546 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
-        // arr 배열 선언 후 값 대입
+        // arr 배열 선언 후 값 대입 
         int[] arr = new int[N];
         String[] input = br.readLine().split(" ");
         for(int i = 0; i<N; i++){
